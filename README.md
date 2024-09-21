@@ -18,21 +18,21 @@ Add a .gitignore file with:
 
 added so .venv files will not be sent up to your repo.
 
-Create a virtual environement by running this command
+# Create a virtual environement by running this command
 ```
 python -m venv .venv
 ```
 
-Activate the environment by running this command
+# Activate the environment by running this command
 ```
 .\.venv\Scripts\activate
 ```
 
-Update the requirements.txt with libraries that need to be installed.
+# Update the requirements.txt with libraries that need to be installed.
 
 
 
-Run the three Git commands to stange and transmit files to GitHub
+# Run the three Git commands to stange and transmit files to GitHub
 ```
 git add .
 ```
@@ -44,7 +44,7 @@ git push origin main
 ```
 
 
-install depedencies from requirements.txt
+# install depedencies from requirements.txt
 ```
 py -m pip install -r requirements.txt
 ```
