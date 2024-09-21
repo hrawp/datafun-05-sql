@@ -10,20 +10,23 @@ git clone https://github.com/hrawp/datafun-05-sql
 ```
 
 Add a .gitignore file with:
-## Python virtual environment
-'.venv/'
+## Python virtual environment.
+```
+.venv/
+```
 
-## Visual Studio Code settings and workspace
-'.vscode/'
-
+## Visual Studio Code settings and workspace.
+```
+.vscode/
+```
 added so .venv files will not be sent up to your repo.
 
-## Create a virtual environement by running this command
+## Create a virtual environement by running this command.
 ```
 python -m venv .venv
 ```
 
-## Activate the environment by running this command
+## Activate the environment by running this command.
 ```
 .\.venv\Scripts\activate
 ```
@@ -32,7 +35,7 @@ python -m venv .venv
 
 
 
-## Run the three Git commands to stange and transmit files to GitHub
+## Run the three Git commands to stange and transmit files to GitHub.
 ```
 git add .
 ```
