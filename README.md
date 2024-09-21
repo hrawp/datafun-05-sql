@@ -1,6 +1,6 @@
 # datafun-05-sql
 SQL work with Python
-## How to Install and Run the Project
+## How to Install and Setup Projects
 
 Create a new repo in Git Hub.  Make sure to include README when creating the new repo.
 
