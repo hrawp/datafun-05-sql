@@ -1,0 +1,1 @@
+SELECT COUNT(last) FROM authors GROUP BY last;
