@@ -1,1 +1,1 @@
-SELECT MIN(year_published) AS Earliest Year FROM books;
+SELECT MIN(year_published) AS Earliest_Year FROM books;

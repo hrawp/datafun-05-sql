@@ -1,4 +1,2 @@
-DELETE FROM books (
-    WHERE
-    title = 'Brave New World'
-);
+DELETE FROM books
+WHERE title = 'Brave New World';
