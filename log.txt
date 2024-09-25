@@ -1,0 +1,16 @@
+2024-09-25 18:45:51,245 - INFO - Program started
+2024-09-25 18:45:51,246 - DEBUG - create folders
+2024-09-25 18:45:51,248 - DEBUG - create database
+2024-09-25 18:45:51,565 - DEBUG - create tables
+2024-09-25 18:45:52,444 - DEBUG - insert_data_from_csv
+2024-09-25 18:45:52,444 - INFO - Program ended
+2024-09-25 18:46:02,894 - INFO - Program started
+2024-09-25 18:46:03,054 - DEBUG - execute_sql_insert
+2024-09-25 18:46:03,058 - DEBUG - execute_sql_aggregate
+2024-09-25 18:46:03,060 - DEBUG - execute_sql_filter
+2024-09-25 18:46:03,062 - DEBUG - execute_sql_group
+2024-09-25 18:46:03,065 - DEBUG - execute_sql_join
+2024-09-25 18:46:03,073 - DEBUG - execute_sql_sorting
+2024-09-25 18:46:03,188 - DEBUG - execute_sql_update
+2024-09-25 18:46:03,355 - DEBUG - execute_sql_delete
+2024-09-25 18:46:03,356 - INFO - Program ended

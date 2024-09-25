@@ -1,9 +1,23 @@
+##########################################
+##########################################
+#
+# This project is to execute SQL statements triggred by a python script.
+# Program db_initialize_aaron.py initializes the project.db with tables from csv files.
+# Program db_operations_aaron.py call the funticions which call inidiviudal .sql files.
+# 
+# 
+##########################################
+##########################################
 # Import from Python Standard Library first
 import sqlite3
 import pathlib
+import logging
 
 # Import from external packages
 import pandas as pd
+
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Define paths using joinpath
 db_file_path = pathlib.Path("project.db")
@@ -54,12 +68,18 @@ def insert_data_from_csv(db_path, author_data_path, book_data_path):
         print(f"Error inserting data: {e}")
 
 def main():
+
+    logging.info("Program started")
     paths_to_verify = [sql_file_path, author_data_path, book_data_path]
     verify_and_create_folders(paths_to_verify)   
-
+    logging.debug("create folders")
     create_database(db_file_path)
+    logging.debug("create database")
     create_tables(db_file_path, sql_file_path)
+    logging.debug("create tables")
     insert_data_from_csv(db_file_path, author_data_path, book_data_path)
+    logging.debug("insert_data_from_csv")
+    logging.info("Program ended")
 
 if __name__ == "__main__":
     main()
