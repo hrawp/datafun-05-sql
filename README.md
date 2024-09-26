@@ -13,20 +13,20 @@ This has what imports we need at the top.
 
 ## I define logging then setup all the diffrent file paths to the .sql files.
 
-(images/Define1.jpg)
+[Define](images/Define1.jpg)
 
 ## Then I define the functions which call the .sql scripts.
 
-(images/Functions2.jpg)
+[Functions](images/Functions2.jpg)
 
 ## Then I run the function call in main.
 
-images/Main3.jpg
+[Main](images/Main3.jpg)
 
 ##  Here is an example of a SQL Update call.
 It changes the year from 1960 to 1961.
 
-images/Update4.jpg
+[Update](images/Update4.jpg)
 
 ## Extra How to Install and Setup Projects
 
