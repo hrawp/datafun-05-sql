@@ -1,6 +1,30 @@
+
+
+
 # datafun-05-sql
 SQL work with Python
-## How to Install and Setup Projects
+
+## I run db_initialize_aaron.py 
+This sets up the database and pulls in data from two csv files authors and books.
+
+## Next I run db_operations_aaron.py
+
+This has what imports we need at the top.
+
+## I define logging then setup all the diffrent file paths to the .sql files.
+
+[Alt text](images/Define1.png)
+
+## Then I define the functions which call the .sql scripts.
+
+[Alt text](images/Functions2.png)
+
+## Then I run the function call in main.
+
+[Alt text](images/Main3.png)
+
+
+## Extra How to Install and Setup Projects
 
 Create a new repo in Git Hub.  Make sure to include README when creating the new repo.
 
