@@ -9,13 +9,13 @@ SQL work with Python
 In this project I use Python to call SQL scripts.  To start off with, I load two csv tables, books and authors, with data into project.db. I then follow the steps below to interact with the data to perform sql commands.
 
 ## I run db_initialize_aaron.py 
-```
+
 This sets up the database and pulls in data from two csv files authors and books.
-```
+
 ## Next I run db_operations_aaron.py
-```
+
 This has what imports we need at the top.
-```
+
 ## I define logging then setup all the diffrent file paths to the .sql files.
 
 [Define](Define1.JPG)
