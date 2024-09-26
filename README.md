@@ -5,9 +5,9 @@
 ```
 SQL work with Python  
 ```
-```
+
 In this project I use Python to call SQL scripts.  To start off with, I load two csv tables, books and authors, with data into project.db. I then follow the steps below to interact with the data to perform sql commands.
-```
+
 ## I run db_initialize_aaron.py 
 ```
 This sets up the database and pulls in data from two csv files authors and books.
