@@ -13,15 +13,15 @@ This has what imports we need at the top.
 
 ## I define logging then setup all the diffrent file paths to the .sql files.
 
-[Alt text](images/Define1.png)
+(images/Define1.png)
 
 ## Then I define the functions which call the .sql scripts.
 
-[Alt text](images/Functions2.png)
+(images/Functions2.png)
 
 ## Then I run the function call in main.
 
-[Alt text](images/Main3.png)
+images/Main3.png
 
 
 ## Extra How to Install and Setup Projects
